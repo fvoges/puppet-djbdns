@@ -1,9 +1,8 @@
-# A description of what this class does
+# Module defaults
 #
-# @summary A short summary of the purpose of this class
+# @api private
+# @summary Module defaults
 #
-# @example
-#   include djbdns::params
 class djbdns::params {
   case $facts['os']['family'] {
     'Debian': {
